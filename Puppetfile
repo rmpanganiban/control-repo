@@ -8,7 +8,7 @@ mod 'puppet-yum', '2.2.0'
 mod 'elastic-logstash', '6.0.2'
 mod 'puppetlabs-java', '2.4.0'
 mod 'joshsamuelson-elk',
-  :git => 'https://github.com/joshsamuelson/joshsamuelson-elk.git'
+  :git => 'https://github.com/joshsamuelson/joshsamuelson-elk.git',
   :ref => master
 mod 'puppetlabs-puppetdb', '6.0.2'
 mod 'puppetlabs-inifile', '2.2.0'
