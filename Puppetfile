@@ -10,7 +10,6 @@ mod 'puppetlabs-java', '2.4.0'
 mod 'joshsamuelson-elk',
   :git => 'https://github.com/joshsamuelson/joshsamuelson-elk.git',
   :ref => 'master'
-mod 'puppetlabs-puppetdb', '6.0.2'
 mod 'puppetlabs-inifile', '6.1.0'
 mod 'puppetlabs-postgresql', '10.0.2'
 mod 'puppetlabs-concat', '4.2.1'
