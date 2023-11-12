@@ -1,4 +1,4 @@
-mod 'puppetlabs-stdlib', '4.25.0'
+mod 'puppetlabs-stdlib', '9.0.0'
 mod 'puppetlabs-apt', '4.5.1'
 mod 'elastic-kibana', '6.0.1'
 mod 'elastic-elasticsearch', '6.2.2'
@@ -11,15 +11,16 @@ mod 'joshsamuelson-elk',
   :git => 'https://github.com/joshsamuelson/joshsamuelson-elk.git',
   :ref => 'master'
 mod 'puppetlabs-puppetdb', '6.0.2'
-mod 'puppetlabs-inifile', '2.2.0'
-mod 'puppetlabs-postgresql', '5.4.0'
+mod 'puppetlabs-inifile', '6.1.0'
+mod 'puppetlabs-postgresql', '10.0.2'
 mod 'puppetlabs-concat', '4.2.1'
 mod 'puppetlabs-firewall', '1.12.0'
 mod 'puppet-puppetboard', '4.0.0'
 mod 'stankevich-python', '1.18.2'
 mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-apache', '3.1.0'
-
+mod 'puppetlabs-puppetdb', '7.13.0'
+mod 'puppet-systemd', '6.1.0'
 
 # mod 'puppet-kibana', '8.0.0'
 # mod 'puppet-elastic_stack', '9.0.0'
