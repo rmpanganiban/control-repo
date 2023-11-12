@@ -10,3 +10,15 @@
 puppet-lint example.pp
 ```
 * gem install rspec-puppet puppetlabs_spec_helper rspec-puppet-facts
+
+## generating modules and classes using pdk
+```
+sudo rpm -Uvh https://yum.puppet.com/puppet-tools-release-el-8.noarch.rpm
+sudo yum install pdk -y
+
+pdk new module rspec_example
+cd rspec_example/
+pdk new class rspec_example
+
+rspec ## test the puppet files inside rspec_example directory
+```
